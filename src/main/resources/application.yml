@@ -1,0 +1,14 @@
+micronaut:
+  application:
+    name: bugReproduction
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: ''
+    driverClassName: org.postgresql.Driver
+    db-type: postgres
+netty:
+  default:
+    allocator:
+      max-order: 3
